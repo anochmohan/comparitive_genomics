@@ -1,0 +1,4 @@
+Query	Reference	%ANI	Num_Fragments_Mapped	Total_Query_Fragments	%Query_Aligned	Basepairs_Query_Aligned
+SRR3214715.fna	GCF_000009085.1_ASM908v1_genomic.fna	99.3952	518	526	98.4791	1554000
+SRR3215024.fna	GCF_000009085.1_ASM908v1_genomic.fna	99.4008	516	524	98.4733	1548000
+SRR3215107.fna	GCF_000009085.1_ASM908v1_genomic.fna	99.4114	517	526	98.289	1551000

@@ -1,0 +1,4 @@
+Bin Id	Marker lineage	# genomes	# markers	# marker sets	0	1	2	3	4	5+	Completeness	Contamination	Strain heterogeneity	
+SRR3215107	Campylobacter jejuni (6)	20	903	161	3	898	2	0	0	0	99.59	0.20	0.00	
+SRR3215024	Campylobacter jejuni (6)	20	903	161	3	898	2	0	0	0	99.59	0.20	0.00	
+SRR3214715	Campylobacter jejuni (6)	20	903	161	3	898	2	0	0	0	99.59	0.20	0.00	
