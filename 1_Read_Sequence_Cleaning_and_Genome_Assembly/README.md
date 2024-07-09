@@ -1,4 +1,4 @@
-## Specific Learning Objectives
+## Specific Objectives
 1. fetch raw FastQ data from NCBI
 1. quickly assess read quality
 1. use a read cleaning tool that does some (but not all) sequence filtering/removal
@@ -10,7 +10,7 @@
 `conda create -n ex3 -y`
 
 
-##### Go into the ex3 environment and install a bunch of utilities from the bioconda channel
+##### Go into the ex3 environment and install utilities from the bioconda channel
 `conda activate ex3`
 `conda install -c bioconda -c conda-forge entrez-direct sra-tools fastqc trimmomatic skesa spades pigz -y`
 
@@ -80,13 +80,5 @@ skesa \
 `grep -c '>' *fna`
 
 
-#### Homework
-1. fetch SRR26244988 Illumina FastQ from the recent publication https://journals.asm.org/doi/full/10.1128/mra.00973-23
-1. quality trim (consider additional options not used in first example)
-1. assemble with SPAdes
-1. use https://github.com/chrisgulvik/genomics_scripts/blob/master/filter.contigs.py (need Python 2.7 with Biopython installed in a conda environment) to evaluate how filtering parameters (e.g., contig coverage, contig length, etc.) affect your output genome size. Decide which parameters seem reasonable to use to form a higher quality output assembly file that represents the isolate's genome. Save output FastA file as `filtered_assembly.fna` Include your commands in upload.
-1. Upload a single compressed archive file `assembly.tar.gz` containing:
-    - 70% grade:  upload (compressed) `filtered_assembly.fna.gz`
-    - 15% grade:  upload `cmds.sh` containing all commands you invoked for this entire project; practice commenting!
-    - 15% grade:  upload SPAdes logfile (compressed) `spades.log.gz`
-- only filenames with *exact* regex matches will be graded
+#### Extra Resources
+1. use https://github.com/chrisgulvik/genomics_scripts/blob/master/filter.contigs.py (need Python 2.7 with Biopython installed in a conda environment) to evaluate how filtering parameters (e.g., contig coverage, contig length, etc.) affect your output genome size.
