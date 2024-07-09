@@ -5,6 +5,8 @@
 1. quickly assemble an isolate genome
 1. identify the value of post-process filtering of a raw assembly
 
+### Can follow cmds.sh file or the instructions below
+
 
 ##### Create conda environment with software for this exercise
 `conda create -n ex3 -y`
