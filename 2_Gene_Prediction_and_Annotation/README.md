@@ -1,4 +1,4 @@
-# Gene Prediction in-class Exercises
+# Gene Prediction
 
 ## Follow cmds.sh file or the instructions belpw
 
